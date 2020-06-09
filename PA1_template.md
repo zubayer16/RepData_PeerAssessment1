@@ -27,7 +27,7 @@ g+geom_histogram(binwidth = 500,color="black",fill="navy blue")+
     ylab("Frequency")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](unnamed-chunk-2-1.png)
 
 ``` r
 # Mean of total steps per day
