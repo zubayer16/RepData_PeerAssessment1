@@ -55,7 +55,7 @@ g+geom_line(colour="#051841",size=1)+
     ylab("Average no. of steps taken per day")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](unnamed-chunk-3-1.png)
 
 For calculating the 5-minute interval that contains the maximum number
 of steps
@@ -100,7 +100,7 @@ total.steps <- tapply(activityCopy$steps, activityCopy$date, FUN = sum)
 qplot(total.steps, binwidth = 500, xlab = "total number of steps taken each day")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](unnamed-chunk-7-1.png)
 
 ``` r
 mean(total.steps)
@@ -149,4 +149,4 @@ ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) +
     xlab("5-minute interval") + ylab("Number of steps")
 ```
 
-![](PA1_template_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](unnamed-chunk-9-1.png)
